@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Angel Uray</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-container">
+        <nav class="nav-bar">
+            <a href="#" class="logo">Angel Uray</a>
+
+            <div class="order-container">
+                <ul class="menu-sections">
+                    <li class="mySpace"><a href="#work-portfolio" class="link-nav">Portfolio<img src="images/Union.png"
+                                alt="" class="larrow"></a></li>
+                    <li><a href="#about-me" class="link-nav">About<img src="images/Union.png" alt="" class="larrow"></a>
+                    </li>
+                    <li><a href="#contact-me" class="link-nav">Contact<img src="images/Union.png" alt=""
+                                class="larrow"></a></li>
+                </ul>
+
+                <a href="#"><img src="images/mail.svg" alt="Email icon" class="email-menu"></a>
+            </div>
+
+            <div class="burguer-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+    <section class="top-headline">
+        <div class="my-name">
+            <h1 class="main-name" id="about-me">Angel Uray</h1>
+            <h2 class="pro-name">Software Developer</h2>
+        </div>
+
+        <p class="top-headline-despt">I can help you build a product , feature or website Look through some of my work
+            and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.
+        </p>
+
+
+        <div class="devider">
+            <img src="images/Devider.png" alt="Section devider" class="devider-mobile dev-mob-1">
+        </div>
+
+
+        <div class="organize">
+
+            <div class="my-languages">
+                <ul>
+                    <li class="listitle">Languages</li>
+                    <li>Javascript</li>
+                    <li>Ruby</li>
+                    <li>Html</li>
+                    <li>css</li>
+                </ul>
+            </div>
+
+            <div class="my-frameworks">
+                <ul>
+                    <li class="listitle">Frameworks</li>
+                    <li>Bootstrap</li>
+                    <li>Ruby on Rails</li>
+                    <li>RSPec</li>
+                    <li>CapyBara</li>
+                    <li>Selenium</li>
+                </ul>
+            </div>
+
+            <div class="my-skills">
+                <ul>
+                    <li class="listitle">Skills</li>
+                    <li>Codekit</li>
+                    <li>Github</li>
+                    <li>Codepen</li>
+                    <li>Gitlab</li>
+                    <li>Terminal</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="devider devider-2">
+        <img src="images/Devider.png" alt="Section devider" class="devider-mobile">
+    </div>
+
+    <div class="media-and-arrows">
+
+        <a href="#" class="arrow-1">
+            <p class="arrow-word">Work</p>
+            <img src="images/arrowdown.png" alt="Work indicator">
+        </a>
+
+        <div class="my-socialmedia">
+            <a href="#"><img src="images/github.png" alt="Github account icon" class="icon"></a>
+            <a href="#"><img src="images/linkedin.png" alt="Linkedin account icon" class="icon"></a>
+            <a href="#"><img src="images/angelist.png" alt="Angelist account icon" class="icon"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter account icon" class="icon"></a>
+            <a href="#"><img src="images/medium.png" alt="Medium account icon" class="icon"></a>
+        </div>
+
+        <a href="#" class="my-work-arrow">
+            <img src="images/arrowdown.png" alt="Work indicator">
+            <p class="arrow-word">Work</p>
+        </a>
+
+    </div>
+
+
+    <section class="my-work">
+
+        <div class="my-work-headline">
+            <h2 class="works-head" id="work-portfolio">My recent works</h2>
+            <div class="devider devider">
+                <img src="images/Devider.png" alt="Section devider" class="mobile-devider">
+                <img src="images/desktop-devider.png" alt="Section devider" class="desktop-devider">
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="my-contact-section">
+        <h2 class="contact-us" id="contact-me">CONTACT US</h2>
+        <h2 class="contact-desktop">Let's chat!</h2>
+        <p class="contact-quote">If you have an application you are interested in developing, a feature that you need
+            built or a project that needs coding. I'd love to help with it </p>
+        <form id="myForm" action="https://formspree.io/f/xayvgowp" method="POST">
+            <ul class="my-form">
+                <li>
+                    <label for="user-name">Full name</label>
+                    <input type="text" name="user-name" id="user-name" placeholder="Full name" maxlength="30" required>
+                </li>
+                <li class="validatorContainer">
+                    <label for="user-email">Email</label>
+                    <input type="email" name="user-email" id="user-email" placeholder="aeiou@gmail.com" required>
+                    <span id="warningMessage"></span>
+                </li>
+                <li>
+                    <label for="user-message">Message</label>
+                    <textarea name="user_name" id="user-message" maxlength="500" placeholder="Enter text here"
+                        required></textarea>
+                </li>
+                <li class="validatorButton">
+                    <button id="my-form-button" type="submit" >Submit</button>
+                    <span id="messageButton"></span>
+                </li>
+            </ul>
+        </form>
+    </section>
+
+    <footer>
+
+        <img src="images/final-devider.png" alt="Footer section devider" class="last-devider">
+        <img src="images/desktop-dev-2.png" alt="Footer section devider" class="last-dev-desk">
+
+        <section class="my-last-media">
+
+            <a href="#"><img src="images/github.png" alt="Github account icon" class="icon"></a>
+            <a href="#"><img src="images/linkedin.png" alt="Linkedin account icon" class="icon"></a>
+            <a href="#"><img src="images/angelist.png" alt="Angelist account icon" class="icon"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter account icon" class="icon"></a>
+            <a href="#"><img src="images/medium.png" alt="Medium account icon" class="icon"></a>
+            <a href="#" class="my-email-desktop">aeucampos@gmail.com</a>
+
+        </section>
+
+        <a href="#" class="my-email">aeucampos@gmail.com</a>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
